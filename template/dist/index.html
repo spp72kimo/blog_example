@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="../../styles/style.css">
+    <title>Steven's blog</title>
+  </head>
+  <body> 
+    <nav class="fixed-top">
+      <div class="navbar navbar-expand-md navbar-dark">
+        <div class="container-fluid"><a class="navbar-brand" href="#">Steven's Blog</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav me-auto mb-2 mb-md-0">
+              <li class="nav-item"><a class="nav-link" href="#">所有文章</a></li>
+              <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">文章分類</a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  <li><a class="dropdown-item" href="#">JavaScript</a></li>
+                  <li><a class="dropdown-item" href="#">CSS</a></li>
+                  <li><a class="dropdown-item" href="#">SMySQL</a></li>
+                  <li><a class="dropdown-item" href="#">php</a></li>
+                  <li><a class="dropdown-item" href="#">Python</a></li>
+                  <li><a class="dropdown-item" href="#">Git</a></li>
+                </ul>
+              </li>
+            </ul>
+            <ul class="navbar-nav ms-auto mb-2 mb-md-0">
+              <li class="nav-item"><a class="nav-link" href="#">登入</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="bottom_bar"> </div>
+    </nav>
+    <header>
+      <div class="header_title"> 
+        <h1>Steven's blog </h1>
+        <h3>about cs technology, life...</h3>
+      </div>
+    </header>
+    <section>
+      <div class="container">
+        <div class="row">
+          <div class="articles col-md-8">
+            <div class="article"> 
+              <div class="container"> 
+                <div class="about_article">
+                  <h2 class="title">淺談 CSRF 及如何防範</h2><span class="created_time me-3">2022-07-06 13:32:30</span><span class="arrilce_classify">分類：JavaScript</span>
+                </div>
+                <div class="content"> </div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin sodales, augue quis elementum elementum, dui nisi rutrum nunc, in pellentesque purus nunc tempus neque. Vivamus vel sapien lobortis, tempus tellus at, pretium nulla. Aliquam erat volutpat. Suspendisse ultrices massa metus, a ultricies nisi ullamcorper vitae. Morbi sollicitudin facilisis nisi, at suscipit lacus semper in. Mauris semper dapibus dui in egestas. Vivamus auctor efficitur molestie. In urna orci, mattis et lectus non, lacinia cursus tortor. Sed mollis tincidunt eleifend. Sed consequat sit amet est pellentesque consectetur. Curabitur congue quam et risus rutrum finibus. Maecenas euismod, tellus et blandit faucibus, eros elit posuere lacus, in pharetra lectus dui eu orci. Morbi euismod interdum interdum. Ut ac pulvinar orci, a suscipit magna. Aenean ut dui ut urna venenatis tristique. Ut in rutrum arcu.</p>
+                <div class="controller d-flex justify-content-end"> 
+                  <div class="controller_text me-3"><a class="me-3" href="#">編輯</a><a href="#">刪除</a></div>
+                </div>
+              </div>
+            </div>
+            <div class="article"> 
+              <div class="container"> 
+                <div class="about_article">
+                  <h2 class="title">淺談 CSRF 及如何防範</h2><span class="created_time me-3">2022-07-06 13:32:30</span><span class="classify">分類：JavaScript</span>
+                </div>
+                <div class="content"> </div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin sodales, augue quis elementum elementum, dui nisi rutrum nunc, in pellentesque purus nunc tempus neque. Vivamus vel sapien lobortis, tempus tellus at, pretium nulla. Aliquam erat volutpat. Suspendisse ultrices massa metus, a ultricies nisi ullamcorper vitae. Morbi sollicitudin facilisis nisi, at suscipit lacus semper in. Mauris semper dapibus dui in egestas. Vivamus auctor efficitur molestie. In urna orci, mattis et lectus non, lacinia cursus tortor. Sed mollis tincidunt eleifend. Sed consequat sit amet est pellentesque consectetur. Curabitur congue quam et risus rutrum finibus. Maecenas euismod, tellus et blandit faucibus, eros elit posuere lacus, in pharetra lectus dui eu orci. Morbi euismod interdum interdum. Ut ac pulvinar orci, a suscipit magna. Aenean ut dui ut urna venenatis tristique. Ut in rutrum arcu.</p>
+                <div class="controller d-flex justify-content-end"> 
+                  <div class="controller_text me-3"><a class="me-3" href="#">編輯</a><a href="#">刪除</a></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="classify col-md-3 offset-1">  
+            <div class="classify container"> 
+              <h3>文章分類</h3>
+              <ul> 
+                <li> <a href="#">JavaScript</a></li>
+                <li> <a href="#">CSS</a></li>
+                <li> <a href="#">MySQL</a></li>
+                <li> <a href="#">php</a></li>
+                <li> <a href="#">Python</a></li>
+                <li> <a href="#">Git</a></li>
+                <li> <a href="#">MongoDB         </a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</html>
